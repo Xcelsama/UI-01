@@ -1,0 +1,121 @@
+
+.btn-greeting{
+display:grid;
+border-radius: 12px;
+background-color: rgba(255, 255, 255, 0.15);
+margin: 10px;
+width: 50px;
+height: 50px;
+place-items: center;
+color:white;
+} 
+
+.avatar{
+    width: 50px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.avatar-text{
+    margin: 0;
+    color: white;
+}
+
+.greeting-card{
+    gap:5px;
+}
+.balance-card{
+     color: white;
+    grid-template-columns: 1fr auto;
+    margin-left: 15px;
+}
+header{
+    background-color:#111A51;
+    padding-bottom:20px;
+}
+.mb-0{
+    color:rgba(255,255,255, 0.6);
+    font-size: 20px;
+}
+.mt-2{
+    font-size: 50px;
+}
+.eye{
+    margin-top : 20px;;
+}
+.percent{
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    color:rgb(9, 158, 4);
+    padding: 3px;
+    text-align: center;
+    margin-left: 6px
+}
+.est{
+    font-size: 15px;
+
+}
+.action-card{
+    gap:25px;
+}
+.btn-1{
+    background-color:#161E4B; 
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    border: 1px solid #3D4A8C;
+    padding: 10px 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 18px;
+    
+
+}
+
+.btn-2{
+    background-color:#306CE4; 
+    border-radius: 12px;
+    border: 1px solid #306CE4;
+    text-align: center;
+    color: white;
+    padding: 10px 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size:18px;
+}
+.btn-3{
+    background-color:#161E4B; 
+    border-radius: 12px;
+    border: 1px solid #3D4A8C;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size:25px;
+    padding:2px 20px;
+}
+.action-card{
+    margin-top: 10px;
+}
+.icon{
+    gap:10px;
+}
+.acctbal{
+    font-size:35px;
+}
+
+.d-cardr{
+    object-fit:fill;
+    width:50px;
+}
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+  .btn-1 , .btn-2 , .btn-3 , .eye  {
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+}
+
