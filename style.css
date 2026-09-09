@@ -121,11 +121,10 @@ color:white;
 
 .img-card{
     width: 100%;
-    aspect-ratio: 3 / 2;
+    aspect-ratio: 1.6 / 1;
     object-fit: cover;
     border-radius: 12px;
 }
-
 .bt-card{
     grid-column: 1 / -1;
 }
@@ -222,9 +221,6 @@ border-style: none ;
     border-radius: 20px 20px 0 0;
     padding: 15px;
 }
-.sp{
-    color:black;
-}
 
 
 .card-row{
@@ -234,7 +230,15 @@ border-style: none ;
     width: 100%;
 }
 
-
+.transaction-row small{
+    color: rgba(0,0,0,0.5);
+}
+.see-more{
+    color: rgba(0,0,0,0.5);
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+}
 
 
 
