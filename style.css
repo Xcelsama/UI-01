@@ -9,6 +9,7 @@ place-items: center;
 color:white;
 } 
 
+
 .avatar{
     width: 50px;
     height: 75px;
@@ -124,7 +125,7 @@ color:white;
 
 .img-card{
     width: 100%;
-    aspect-ratio: 1.6 / 1;
+    aspect-ratio: 1.45 / 1;
     object-fit: cover;
     border-radius: 12px;
 }
@@ -133,18 +134,21 @@ color:white;
 }
 
 .hd{
-    justify-content: center;
-
+    justify-content: space-between;
+    align-items: center;
 }
 
 .btn-trans{
-border-radius: 12px;
-background-color: rgba(255, 255, 255, 0.002);
-margin: 10px;
-width: 50px;
-height: 50px;
-place-items: center;
-border-style: none ;
+    border-radius: 50%;
+    background-color: transparent;
+    margin: 0;
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+    border-style: none;
+    color: #111A51;
+    font-size: 18px;
 }
 
 .hdr{
@@ -153,11 +157,12 @@ border-style: none ;
 
 .butn{
     gap:10px;
-    background-color: rgba(255, 255, 255, 0.);
-    border-radius: 12px;
+    background-color: #F1F2F6;
+    color: #111A51;
+    border-radius: 20px;
     border-style: none;
-    padding:2px 10px;
-    
+    padding:6px 14px;
+    font-size: 14px;
 }
 .config{
     gap:10px;
@@ -165,10 +170,12 @@ border-style: none ;
 
 .special{
     margin-left:2px;
-    background-color:#306CE4; ;
-    border-radius: 12px;
+    background-color:#306CE4;
+    color: white;
+    border-radius: 20px;
     border-style:none;
-    padding:2px 10px;
+    padding:6px 14px;
+    font-size: 14px;
 }
 .add-card{
     color: white;
@@ -231,14 +238,15 @@ border-style: none ;
 .content-panel{
     background-color: white;
     border-radius: 20px 20px 0 0;
-    padding: 15px;
+    padding: 15px 10px;
+    margin: 0 8px 8px;
 }
 
 
 .card-row{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
+    gap: 10px;
     width: 100%;
 }
 
@@ -251,15 +259,81 @@ border-style: none ;
     cursor: pointer;
     text-decoration: none;
 }
+.tx-date-header{
+    color: rgba(0,0,0,0.4);
+    font-size: 13px;
+    margin: 12px 0 6px;
+}
+.tx-amount.positive{ color: #22c55e; }
+.tx-amount.negative{ color: #ef4444; }
+.tx-time{
+    color: rgba(0,0,0,0.4);
+    font-size: 12px;
+}
+
+.bg-upwork{ background-color: #6fda44; color: #000; }
+.bg-netflix{ background-color: #E50914; color: #fff; }
+.bg-starbucks{ background-color: #00704A; color: #fff; }
+.bg-spotify{ background-color: #1DB954; color: #fff; }
+.bg-paypal{ background-color: #003087; color: #fff; }
+.bg-wayflow{ background-color: #7C3AED; color: #fff; }
+.bg-amazon{ background-color: #000; color: #FF9900; }
+.bg-googleplay{ background-color: #f1f1f1; color: #34A853; }
+.bg-wise{ background-color: #9FE870; color: #163300; }
 
 
 
 
+.main-trans{
+    background-color: #ffffff;
+    min-height: 100vh;
+    max-width: 420px;
+    margin: 0 auto;
+    border-radius: 24px 24px 0 0;
+    overflow: hidden;
+}
+
+.trans{
+    padding: 15px 15px 0;
+    background-color: white;
+}
+
+.hd{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hd h4{
+    color: #111A51;
+    margin: 0;
+}
+
+.hdr{
+    margin-top: 0;
+}
+
+.config{
+    gap: 10px;
+    margin-top: 15px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+.trans-body{
+    background-color: white;
+    padding: 15px;
+    color: black;
+}
 
 
 
+body > main > div > section.d-grid.d-cd > div.d-flex.justify-content-between.align-items-center.mb-2 > span {
+    color:#000;
+    background-color: rgba(215, 211, 211, 0.6);
+    border-radius : 20px;
+    padding:2px 8px;
 
-
+}
 
 
 

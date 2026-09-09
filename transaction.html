@@ -1,18 +1,20 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>X-pay Transaction History</title>
     <link rel="stylesheet" href="style.css">
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="main-trans">
     <header class="trans">
-        <section class="hd d-flex ">
-            <button src="index.html" class="btn-trans"><i class="bi bi-search"></i></button>
+        <section class="hd d-flex align-items-center">
+            <a href="index.html" class="btn-trans"><i class="bi bi-arrow-left"></i></a>
          <h4 class="hdr">Transaction History</h4>   
          <button class="btn-trans"><i class="bi bi-search"></i></button>
         </section>
@@ -25,5 +27,141 @@
         </section>
     </header>
 
+    <main class="trans-body">
+
+        <p class="tx-date-header">Today</p>
+
+        <div class="transaction-row d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <div class="tx-icon bg-upwork"><i class="fa-brands fa-upwork"></i></div>
+                <div class="ms-2">
+                    <p>Upwork</p>
+                    <small class="sp">Client Payment Received</small>
+                </div>
+            </div>
+            <div class="text-end">
+                <span class="tx-amount positive">+$480.00</span>
+                <small class="d-block tx-time">10:42 AM</small>
+            </div>
+        </div>
+
+        <div class="transaction-row d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <div class="tx-icon bg-netflix"><i class="fa-brands fa-netflix"></i></div>
+                <div class="ms-2">
+                    <p>Netflix</p>
+                    <small class="sp">Subscription Renewal</small>
+                </div>
+            </div>
+            <div class="text-end">
+                <span class="tx-amount negative">-$12.99</span>
+                <small class="d-block tx-time">09:20 AM</small>
+            </div>
+        </div>
+
+        <div class="transaction-row d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <div class="tx-icon bg-starbucks"><i class="fa-solid fa-mug-hot"></i></div>
+                <div class="ms-2">
+                    <p>Starbucks</p>
+                    <small class="sp">Morning Coffee</small>
+                </div>
+            </div>
+            <div class="text-end">
+                <span class="tx-amount negative">-$5.75</span>
+                <small class="d-block tx-time">08:13 AM</small>
+            </div>
+        </div>
+
+        <p class="tx-date-header">Yesterday</p>
+
+        <div class="transaction-row d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <div class="tx-icon bg-spotify"><i class="fa-brands fa-spotify"></i></div>
+                <div class="ms-2">
+                    <p>Spotify</p>
+                    <small class="sp">Premium Family Plan</small>
+                </div>
+            </div>
+            <div class="text-end">
+                <span class="tx-amount negative">-$15.99</span>
+                <small class="d-block tx-time">07:30 PM</small>
+            </div>
+        </div>
+
+        <div class="transaction-row d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <div class="tx-icon bg-paypal"><i class="fa-brands fa-paypal"></i></div>
+                <div class="ms-2">
+                    <p>PayPal Transfer</p>
+                    <small class="sp">Receive from Sarah</small>
+                </div>
+            </div>
+            <div class="text-end">
+                <span class="tx-amount positive">+$120.00</span>
+                <small class="d-block tx-time">05:10 PM</small>
+            </div>
+        </div>
+
+        <div class="transaction-row d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <div class="tx-icon bg-wayflow"><i class="fa-solid fa-briefcase"></i></div>
+                <div class="ms-2">
+                    <p>Wayflow Income</p>
+                    <small class="sp">Freelance Project Payment</small>
+                </div>
+            </div>
+            <div class="text-end">
+                <span class="tx-amount positive">+$950.00</span>
+                <small class="d-block tx-time">11:45 AM</small>
+            </div>
+        </div>
+
+        <p class="tx-date-header">Nov 2, 2026</p>
+
+        <div class="transaction-row d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <div class="tx-icon bg-amazon"><i class="fa-brands fa-amazon"></i></div>
+                <div class="ms-2">
+                    <p>Amazon</p>
+                    <small class="sp">Order #A23897</small>
+                </div>
+            </div>
+            <div class="text-end">
+                <span class="tx-amount negative">-$89.50</span>
+                <small class="d-block tx-time">09:28 PM</small>
+            </div>
+        </div>
+
+        <div class="transaction-row d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <div class="tx-icon bg-googleplay"><i class="fa-brands fa-google-play"></i></div>
+                <div class="ms-2">
+                    <p>Google Play</p>
+                    <small class="sp">App Purchase</small>
+                </div>
+            </div>
+            <div class="text-end">
+                <span class="tx-amount negative">-$3.49</span>
+                <small class="d-block tx-time">06:15 PM</small>
+            </div>
+        </div>
+
+        <div class="transaction-row d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <div class="tx-icon bg-wise"><i class="fa-solid fa-right-left"></i></div>
+                <div class="ms-2">
+                    <p>Wise Transfer</p>
+                    <small class="sp">Received Payment</small>
+                </div>
+            </div>
+            <div class="text-end">
+                <span class="tx-amount positive">+$250.00</span>
+                <small class="d-block tx-time">09:25 AM</small>
+            </div>
+        </div>
+
+    </main>
+    </div>
 </body>
 </html>
