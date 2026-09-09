@@ -97,7 +97,10 @@ color:white;
     padding:2px 20px;
 }
 .action-card{
+    gap: 12px;
     margin-top: 10px;
+    padding: 0 15px;
+    width: 100%;
 }
 .icon{
     gap:10px;
@@ -133,10 +136,7 @@ color:white;
     justify-content: center;
 
 }
-body{
-    max-width: 400px;
-    margin: 0 auto;
-}
+
 .btn-trans{
 border-radius: 12px;
 background-color: rgba(255, 255, 255, 0.002);
@@ -179,6 +179,18 @@ border-style: none ;
     color: #111A51;
     border-radius: 12px;
     margin: 15px 0;
+    padding: 2px 10px;
+    background-color: rgba(82, 82, 83, 0.06);
+}
+
+.btn-1, .btn-2 {
+    flex: 1;
+    padding: 10px 0;
+}
+.btn-3{
+    flex: 0 0 auto;
+    width: 50px;
+    padding: 10px 0; 
 }
 .upcm-title{
     color: #111A51;
@@ -252,8 +264,17 @@ border-style: none ;
 
 
 @media (max-width: 480px) {
-  .btn-1 , .btn-2 , .btn-3 , .eye  {
-    padding: 10px 15px;
+  .btn-1, .btn-2, .eye {
+    padding: 10px 0;
     font-size: 12px;
+  }
+  .btn-3{
+    width: 44px;
+    padding: 8px 0;
+    font-size: 12px;
+  }
+  .action-card{
+    gap: 8px;
+    padding: 0 10px;
   }
 }
